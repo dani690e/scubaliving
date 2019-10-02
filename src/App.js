@@ -1,25 +1,37 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Header from './components/Header/Header';
+import Jumbotron from './components/Jumbotron/Jumbotron'
+import Produkter from './components/Produkter/Produkter'
+import Rejser from './components/Rejser/Rejser';
+import Certifikat from './components/Certifikat/Certifikat';
+import Login from './components/Login/Login';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="ScubaLiving">
+        <Header />
+        <Switch>
+          <Route exact path="/" render={props =>
+            <main>
+              <Jumbotron />
+              <div className="container-fluid p-3">
+                <Produkter antal={4} />
+                <Rejser />
+                <Certifikat />
+              </div>
+            </main>
+          } />
+          <Route exact path="/dykkerudstyr" component={Produkter} />
+          <Route exact path="/dykkerrejser" component={Rejser} />
+          <Route exact path="/dykkerkurser" component={Certifikat} />
+          <Route exact path="/login" component={Login} />
+        </Switch>
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }
 

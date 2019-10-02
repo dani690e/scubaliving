@@ -1,0 +1,40 @@
+$theme-colors: (
+    "blue":    rgb(10, 132, 255),
+    "indigo":  rgb(94, 92, 230),
+    "purple":  rgb(191, 90, 242),
+    "pink":    rgb(255, 55, 95),
+    "red":     rgb(255, 69, 58),
+    "orange":  rgb(255, 159, 10),
+    "yellow":  rgb(255, 214, 10),
+    "green":   rgb(48, 209, 88),
+    "teal":    rgb(100, 210, 255),
+    "cyan":    rgb(0, 255, 255),
+    "black":   rgb(0,0,0),
+    "white":   rgb(255, 255, 255),
+    "gray-100": rgb(202, 203, 204),
+    "gray-200": rgb(219, 220, 221),
+    "gray-300": rgb(72, 72,74),
+    "gray-400": rgb(58, 58, 60),
+    "gray-500": rgb(44, 44, 46),
+    "gray-600": rgb(28, 28, 30)
+);
+$grays: (
+    "gray-100": rgb(142, 142, 147),
+    "gray-200": rgb(99, 99, 102),
+    "gray-300": rgb(72, 72,74),
+    "gray-400": rgb(58, 58, 60),
+    "gray-500": rgb(44, 44, 46),
+    "gray-600": rgb(28, 28, 30)
+);
+
+
+@import 'bootstrap/scss/bootstrap';
+
+.jumbotron-fluid {
+    background-image: url(/img/scuba2.jpg);
+    height: 93vh;
+
+    .jumbotron {
+        background-color: rgba(233, 235, 239, 0.6);
+    }
+}
