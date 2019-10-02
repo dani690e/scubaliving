@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a1b9626255914b39d7537072bf6d3b2e",
+    "revision": "d9d48f7a14840cc69d67113b230fdb5f",
     "url": "/scubaliving/index.html"
   },
   {
-    "revision": "d78fa502abbb06b96b47",
+    "revision": "073d3413f9735ddd947b",
     "url": "/scubaliving/static/css/main.aa639022.chunk.css"
   },
   {
-    "revision": "5b7e50713a343c14b130",
-    "url": "/scubaliving/static/js/2.5ab80b7b.chunk.js"
+    "revision": "8cc6c58ffe78b851e2f7",
+    "url": "/scubaliving/static/js/2.12faa1a8.chunk.js"
   },
   {
-    "revision": "d78fa502abbb06b96b47",
-    "url": "/scubaliving/static/js/main.73d27082.chunk.js"
+    "revision": "073d3413f9735ddd947b",
+    "url": "/scubaliving/static/js/main.f53c24c7.chunk.js"
   },
   {
     "revision": "6220d69063b9e95199ca",
