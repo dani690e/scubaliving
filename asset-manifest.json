@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/scubaliving/static/css/main.aa639022.chunk.css",
+    "main.js": "/scubaliving/static/js/main.73d27082.chunk.js",
+    "main.js.map": "/scubaliving/static/js/main.73d27082.chunk.js.map",
+    "runtime-main.js": "/scubaliving/static/js/runtime-main.865e7a5f.js",
+    "runtime-main.js.map": "/scubaliving/static/js/runtime-main.865e7a5f.js.map",
+    "static/js/2.5ab80b7b.chunk.js": "/scubaliving/static/js/2.5ab80b7b.chunk.js",
+    "static/js/2.5ab80b7b.chunk.js.map": "/scubaliving/static/js/2.5ab80b7b.chunk.js.map",
+    "index.html": "/scubaliving/index.html",
+    "precache-manifest.44b9c706f31d3bdf2f5deb047d73dd04.js": "/scubaliving/precache-manifest.44b9c706f31d3bdf2f5deb047d73dd04.js",
+    "service-worker.js": "/scubaliving/service-worker.js",
+    "static/css/main.aa639022.chunk.css.map": "/scubaliving/static/css/main.aa639022.chunk.css.map",
+    "static/media/logo.svg": "/scubaliving/static/media/logo.e071d947.svg"
+  }
+}
