@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <header className="container-fluid">
             <nav className="navbar navbar-expand-lg navbar-light">
-                <NavLink className="navbar-brand" to="/"><img className="w-50" src={logo} alt="logo"></img></NavLink>
+                <NavLink className="navbar-brand w-25" to="/"><img className="w-50" src={logo} alt="logo"></img></NavLink>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>

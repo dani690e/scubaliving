@@ -32,7 +32,7 @@ const Certifikat = () => {
             <section className="row">
                 {certifikatListe}
             </section>
-            <NavLink className="text-uppercase display-4 d-flex justify-content-center p-5 text-black" to="/dykkerkurser">Se alle kurser og certifikater her!</NavLink>
+            <NavLink className="text-uppercase text-center display-4 d-flex justify-content-center p-5 text-black" to="/dykkerkurser">Se alle kurser og certifikater her!</NavLink>
         </section>
     );
 }

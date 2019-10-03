@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import Header from './components/Header/Header';
 import Jumbotron from './components/Jumbotron/Jumbotron'
 import Produkter from './components/Produkter/Produkter'
@@ -10,7 +10,7 @@ import Footer from './components/Footer/Footer';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="ScubaLiving">
         <Header />
         <Switch>
@@ -31,7 +31,7 @@ function App() {
         </Switch>
         <Footer />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

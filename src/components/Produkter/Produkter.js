@@ -11,7 +11,7 @@ const Produkter = (props) => {
                 </div>
             </div>
             <Produkt antal={props.antal} />
-            <NavLink className="text-uppercase display-4 d-flex justify-content-center p-5 text-black" to="/dykkerudstyr">Se mere lækkert udstyr her!</NavLink>
+            <NavLink className="text-uppercase text-center display-4 d-flex justify-content-center p-5 text-black" to="/dykkerudstyr">Se mere lækkert udstyr her!</NavLink>
         </section>
     );
 }

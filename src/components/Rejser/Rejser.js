@@ -30,7 +30,7 @@ const Rejser = () => {
             <section className="row">
                 {rejseListe}
             </section>
-            <NavLink className="text-uppercase display-4 d-flex justify-content-center p-5 text-black" to="#">Se flere destinationer og muligheder her!</NavLink>
+            <NavLink className="text-uppercase text-center display-4 d-flex justify-content-center p-5 text-black" to="/dykkerrejser">Se flere destinationer og muligheder her!</NavLink>
         </section>
     );
 }

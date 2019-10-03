@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:200&display=swap');
+
 $theme-colors: (
     "blue":    rgb(10, 132, 255),
     "indigo":  rgb(94, 92, 230),
@@ -27,8 +29,19 @@ $grays: (
     "gray-600": rgb(28, 28, 30)
 );
 
+body {
+    font-family: 'Oswald', sans-serif !important;
+}
+
+.navbar-nav {
+    font-size: 20px;
+}
+.nav-item i {
+    font-size: 22px;
+}
 
 @import 'bootstrap/scss/bootstrap';
+
 
 .jumbotron-fluid {
     background-image: url(/img/scuba2.jpg);
