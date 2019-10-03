@@ -25,7 +25,7 @@ const Certifikat = () => {
     return (
         <section className="container-fluid">
             <div className="w-100 bg-gray-100 my-5">
-                <div className="w-50 bg-black text-white p-2">
+                <div className="col-sm-12 col-md-6 bg-black text-white p-2">
                     <h2 className="pl-5 text-uppercase">Padi - dykkercertifikat</h2>
                 </div>
             </div>
